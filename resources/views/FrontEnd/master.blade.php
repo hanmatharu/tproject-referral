@@ -31,7 +31,7 @@
     <!-- Header End -->
 
     <!-- Recent Recipe Section Begin -->
-    @yield('recent');
+    @yield('recent')
     <!-- Recent Recipe Section End -->
 
     <!-- Footer Section Begin -->

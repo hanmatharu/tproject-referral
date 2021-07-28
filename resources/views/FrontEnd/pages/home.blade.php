@@ -2,9 +2,7 @@
 
 @section('recent')
     <section class="top-recipe spad">
-        <div class="section-title">
-            <h5>Top Recipes this Week</h5>
-        </div>
+
         <div class="container po-relative">
             <div class="plus-icon">
                 <i class="fa fa-plus"></i>
