@@ -15,4 +15,7 @@ yarn-error.log
 /.vscode
 Icon?
 .DS_Store
-/.vagrant
+/.vagrant/
+/aliases/
+/Vagrantfile/
+/after.sh/
