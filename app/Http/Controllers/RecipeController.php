@@ -28,7 +28,7 @@ class RecipeController extends Controller
 
   public function create(Request $request)
   {
-    // 
+    //
     if ($request->user()->can_post()) {
       return view('recipes.create');
     } else {
@@ -67,7 +67,7 @@ class RecipeController extends Controller
     {
        return redirect('/')->withErrors('requested page not found');
     }
-   
+
     return view('recipes.show')->withPost($post);
   }
 
@@ -124,7 +124,7 @@ class RecipeController extends Controller
       $post->delete();
       $data['message'] = 'Recipe deleted Successfully';
     }
-    else 
+    else
     {
       $data['errors'] = 'Invalid Operation. You do not have sufficient permissions';
     }
