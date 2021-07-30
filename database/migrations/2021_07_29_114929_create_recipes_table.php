@@ -13,6 +13,7 @@ class CreateRecipesTable extends Migration
      */
     public function up()
     {
+        Schema::dropIfExists('users');
         Schema::create('recipes', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('author_id');
