@@ -15,6 +15,16 @@ class CreateRecipesTable extends Migration
     {
         Schema::create('recipes', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('author_id');
+            $table->foreign('author_id')
+                ->references('id')->on('users')
+                ->onDelete('cascade');
+            $table->string('title')->unique();
+            $table->string('type');
+            $table->text('body');
+            $table->unsignedInteger('time');
+            $table->string('slug')->unique();
+            $table->boolean('active');
             $table->timestamps();
         });
     }
