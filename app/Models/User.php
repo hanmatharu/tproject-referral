@@ -40,7 +40,7 @@ class User extends Authenticatable implements AuthenticatableContract, CanResetP
     protected $hidden = [
         'password',
         'remember_token'
-    ]; 
+    ];
     /**
      * User has many posts
      */

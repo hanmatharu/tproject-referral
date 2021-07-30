@@ -10,14 +10,14 @@ class Recipes extends Model
      use HasFactory;
 
 
-    //restricts columns from modifying 
+    //restricts columns from modifying
     protected $guarded = [];
 
     // returns the instance of the user who is author of that post
     public function author()
     {
-        return $this->belongsTo('App\User', 'author_id');
+        return $this->belongsTo('App\Models\User', 'author_id');
     }
 
-   
+
 }
