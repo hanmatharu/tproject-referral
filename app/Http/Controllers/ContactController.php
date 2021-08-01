@@ -31,6 +31,19 @@ class ContactController extends Controller
 
          $contact->save();
 
-         return back()->with('success', 'Thank you for contact us!');
+         \Mail::send('contact_email',
+             array(
+                 'name' => $request->get('name'),
+                 'email' => $request->get('email'),
+                 'subject' => $request->get('subject'),
+                 'phone_number' => $request->get('phone_number'),
+                 'user_message' => $request->get('message'),
+             ), function($message) use ($request)
+               {
+                  $message->from($request->email);
+                  $message->to('200234474@aston.ac.uk');
+               });
+
+         return back()->with('success', 'Thank you for contacting us!');
         }
 }
