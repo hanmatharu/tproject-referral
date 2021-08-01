@@ -17,5 +17,4 @@ Icon?
 .DS_Store
 /.vagrant/
 /aliases/
-/Vagrantfile/
 /after.sh/
