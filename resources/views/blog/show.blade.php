@@ -7,12 +7,12 @@
                 <h1 class="display-one">{{ ucfirst($post->title) }}</h1>
                 <p>{!! $post->body !!}</p>
                 <hr>
-                <a href="/blog/{{ $post->id }}/edit" class="btn btn-outline-primary">Edit Post</a>
+                <a href="/blog/{{ $post->id }}/edit" class="btn btn-outline-primary">Edit Recipe</a>
                 <br><br>
                 <form id="delete-frm" class="" action="" method="POST">
                     @method('DELETE')
                     @csrf
-                    <button class="btn btn-danger">Delete Post</button>
+                    <button class="btn btn-danger">Delete Recipe</button>
                 </form>
             </div>
         </div>

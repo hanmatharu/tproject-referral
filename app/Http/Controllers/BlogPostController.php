@@ -5,8 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\BlogPost;
 use Illuminate\Http\Request;
 
-use App\VSE;
-
 class BlogPostController extends Controller
 {
     public function index()
@@ -16,6 +14,11 @@ class BlogPostController extends Controller
 	    return view('blog.index', [
             'posts' => $posts,
         ]); //returns the view with posts
+    }
+
+    public function showHome()
+    {
+        return view('welcome');
     }
 
     public function create()
@@ -35,6 +38,10 @@ class BlogPostController extends Controller
         ]);
 
         return redirect('blog/' . $newPost->id);
+    }
+
+    public function addRecipe(){
+        return view('blog.create');
     }
 
     public function show(BlogPost $blogPost)

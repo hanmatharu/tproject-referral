@@ -37,7 +37,25 @@
     </div>
 
     <!-- Header Section Begin -->
-    @include('FrontEnd.header')
+    <header class="header-section">
+        <div class="container">
+            <div class="logo">
+                <a href="home"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="nav-menu">
+                <nav class="main-menu mobile-menu">
+                    <ul>
+                        <li><a href="addrecipe">Add Recipe</a></li>
+                        <li><a href="contact-us">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-right search-switch">
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
     <!-- Header End -->
 
     <!-- Recent Recipe Section Begin -->
@@ -45,7 +63,27 @@
     <!-- Recent Recipe Section End -->
 
     <!-- Footer Section Begin -->
-    @include('FrontEnd.footer')
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="fs-left">
+                        <div class="logo">
+                            <a href="home">
+                                <img src="img/footer-logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-right pt-0">
+                        <div class="social-links">
+                            <a href="https://github.com/hanmatharu/tproject-referral.git"><i class="fa fa-github"></i><span>GitHub</span></a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </footer>
     <!-- Footer Section End -->
 
     <!-- Search model -->
@@ -66,6 +104,10 @@
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 
 </html>
