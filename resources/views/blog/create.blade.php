@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('mytitle', 'Create Recipe')
 
 @section('content')
 
@@ -15,7 +16,7 @@
 
                     <hr>
 
-                    <form action="" method="POST">
+                    <form action="/blog/create/post" method="POST">
                         @csrf
                         <div class="row">
                             <div class="control-group col-12">

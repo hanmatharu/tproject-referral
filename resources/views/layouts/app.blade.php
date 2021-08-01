@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name') }}</title>
     <!-- <meta charset="UTF-8">
     <meta name="description" content="Yoga Studio Template">
     <meta name="keywords" content="Yoga, unica, creative, html">
@@ -59,6 +58,7 @@
     <!-- Header End -->
 
     <!-- Recent Recipe Section Begin -->
+    <title>Yummy | @yield('mytitle')</title>
     @yield('content')
     <!-- Recent Recipe Section End -->
 

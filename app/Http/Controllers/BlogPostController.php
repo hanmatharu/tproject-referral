@@ -47,8 +47,8 @@ class BlogPostController extends Controller
     public function show(BlogPost $blogPost)
     {
         //show a recipe post
-        return view(‘blog.show’, [
-            ‘post’ => $blogPost,
+        return view('blog.show', [
+            'post' => $blogPost,
         ]); //returns the view with the post
     }
 
@@ -56,8 +56,8 @@ class BlogPostController extends Controller
     public function edit(BlogPost $blogPost)
     {
         //show form to edit the recipe
-        return view(‘blog.edit’, [
-            ‘post’ => $blogPost,
+        return view('blog.edit', [
+            'post' => $blogPost,
             ]);
     }
 

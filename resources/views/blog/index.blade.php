@@ -1,4 +1,7 @@
 @extends('layouts.app')
+
+@section('mytitle', 'All Recipes')
+
 @section('content')
     <div class="container">
         <div class="row">
