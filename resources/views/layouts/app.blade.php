@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ config('app.name') }}</title>
+    <!-- <meta charset="UTF-8">
     <meta name="description" content="Yoga Studio Template">
     <meta name="keywords" content="Yoga, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yummy</title>
+    <title>Yummy</title> -->
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -18,6 +22,12 @@
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <style>
+        body {
+            font-family: 'Nunito';
+        }
+    </style>
 </head>
 
 <body>
@@ -31,7 +41,7 @@
     <!-- Header End -->
 
     <!-- Recent Recipe Section Begin -->
-    @yield('recent')
+    @yield('content')
     <!-- Recent Recipe Section End -->
 
     <!-- Footer Section Begin -->
