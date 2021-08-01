@@ -1,3 +1,8 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 <footer class="footer-section">
         <div class="container">
             <div class="row">
@@ -8,34 +13,13 @@
                                 <img src="img/footer-logo.png" alt="">
                             </a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 offset-lg-1">
-                    <form action="#" class="subscribe-form">
-                        <h3>Subscribe to our newsletter</h3>
-                        <input type="email" placeholder="Your e-mail">
-                        <button type="submit">Subscribe</button>
-                    </form>
-                    <div class="social-links">
-                        <a href="#"><i class="fa fa-instagram"></i><span>Instagram</span></a>
-                        <a href="#"><i class="fa fa-pinterest"></i><span>Pinterest</span></a>
-                        <a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-                        <a href="#"><i class="fa fa-twitter"></i><span>Twitter</span></a>
-                        <a href="#"><i class="fa fa-youtube"></i><span>Youtube</span></a>
+                    <div class="container text-right">
+                        <div class="social-links">
+                            <a href="#"><i class="fa fa-github"></i><span>GitHub</span></a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="copyright-text">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </div>
-                </div>
             </div>
         </div>
-    </footer>
+</footer>
