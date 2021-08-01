@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 Route::get('/','TemplateController@index');
 
+Route::get('/blog', [\App\Http\Controllers\BlogPostController::class, 'index']);
+Route::get('/blog/{blogPost}', [\App\Http\Controllers\BlogPostController::class, 'show']);
