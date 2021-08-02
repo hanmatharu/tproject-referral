@@ -26,7 +26,8 @@
             </table>
     </div>
     @elseif(isset($message))
-    <p> {{ $message }} </p>
+    <h1> {{ $message }} </h1>
+    <br> <br>
     @endif
 </div>
 @endsection
