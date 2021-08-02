@@ -86,16 +86,23 @@
     </footer>
     <!-- Footer Section End -->
 
-    <!-- Search model -->
+    <!-- Search model-->
 	<div class="search-model">
 		<div class="h-100 d-flex align-items-center justify-content-center">
 			<div class="search-close-switch">+</div>
-			<form class="search-model-form">
-				<input type="text" id="search-input" placeholder="Search here.....">
-			</form>
+            <form class="search-model-form" action="{{URL::to('/search')}}" method="POST" role="search">
+            {{ csrf_field() }}
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search here..." name="q">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="submit">Go!</button>
+                </span>
+            </div>
+            </form>
 		</div>
 	</div>
-	<!-- Search model end -->
+
+
 
     <!-- Js Plugins -->
     <script src="{{url('js/jquery-3.3.1.min.js')}}"></script>

@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Request;
+use App\Models\BlogPost;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +35,15 @@ Route::patch('/blog/{blogPost}/edit', 'BlogPostController@update');
 Route::delete('/blog/{blogPost}', [\App\Http\Controllers\BlogPostController::class, 'destroy']); //deletes recipe from the database
 Route::get('contact-us', 'ContactController@getContact');
 Route::post('contact-us', 'ContactController@saveContact');
+
+Route::post('/search', function(){
+    $q = Request::get('q');
+    if($q != "") {
+        $posts = BlogPost::where('title', 'LIKE', '%' . $q . '%')
+                            ->orWhere('body', 'LIKE', '%' . $q . '%')
+                            ->get();
+        if(count($posts) > 0)
+            return view('search')->withDetails($posts)->withQuery($q);
+    }
+    return view('search')->withMessage("No Recipes Found!");
+});
