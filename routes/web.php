@@ -24,7 +24,7 @@ Route::get('/blog/{blogPost}', [\App\Http\Controllers\BlogPostController::class,
 Route::get('addrecipe', 'BlogPostController@addRecipe');
 Route::get('home', 'BlogPostController@showHome');
 Route::get('/blog/create/post', [\App\Http\Controllers\BlogPostController::class, 'create']); //shows create recipe form
-Route::post('/blog/create/post', [\App\Http\Controllers\BlogPostController::class, 'store']); //saves the created recipe to the databse
+Route::post('Create', 'BlogPostController@store'); //saves the created recipe to the databse
 Route::get('/blog/{blogPost}/edit', [\App\Http\Controllers\BlogPostController::class, 'edit']); //shows edit recipe form
 Route::put('/blog/{blogPost}/edit', [\App\Http\Controllers\BlogPostController::class, 'update']); //commits edited recipe to the database
 Route::delete('/blog/{blogPost}', [\App\Http\Controllers\BlogPostController::class, 'destroy']); //deletes recipe from the database

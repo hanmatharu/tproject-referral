@@ -16,7 +16,7 @@
 
                     <hr>
 
-                    <form action="/blog/create/post" method="POST">
+                    <form action="Create" method="POST">
                         @csrf
                         <div class="row">
                             <div class="control-group col-12">

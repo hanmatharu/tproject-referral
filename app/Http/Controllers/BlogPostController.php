@@ -77,6 +77,9 @@ class BlogPostController extends Controller
     public function destroy(BlogPost $blogPost)
     {
         //delete a recipe
+        $blogPost->delete();
+
+        return redirect('/blog');
 
     }
 }

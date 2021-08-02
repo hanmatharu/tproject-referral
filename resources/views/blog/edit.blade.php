@@ -14,7 +14,7 @@
 
                     <hr>
 
-                    <form action="" method="POST">
+                    <form action="/blog/{blogPost}/edit" method="POST">
                         @csrf
                         @method('PUT')
                         <div class="row">
