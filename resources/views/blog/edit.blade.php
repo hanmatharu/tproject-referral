@@ -14,11 +14,11 @@
 
                     <hr>
 
-                    <form action="/blog/{blogPost}/edit" method="POST">
+                    <form action="/blog/{{$post->id}}/edit" method="POST">
                         @csrf
                         @method('PATCH')
                         <div class="row">
-                            <div class="control-group col-12">
+                            <div class="control-gr[oup col-12">
                                 <label for="title">Recipe Title</label>
                                 <input type="text" id="title" class="form-control" name="title"
                                        placeholder="Enter Post Title" value="{{ $post->title }}" required>
