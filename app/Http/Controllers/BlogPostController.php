@@ -34,6 +34,7 @@ class BlogPostController extends Controller
         $newPost = BlogPost::create([
             'title' => $request->title,
             'body' => $request->body,
+            'cook_time' => $request->cook_time,
             'user_id' => 1
         ]);
 
@@ -67,7 +68,8 @@ class BlogPostController extends Controller
         //save the edited recipe
         $blogPost->update([
             'title' => $request->title,
-            'body' => $request->body
+            'body' => $request->body,
+            'cook_time' => $request->cook_time
         ]);
 
         return redirect('blog/' . $blogPost->id);

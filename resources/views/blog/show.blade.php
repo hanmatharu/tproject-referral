@@ -11,7 +11,9 @@
                 <br> <br>
                 <h1 class="display-one">{{ ucfirst($post->title) }}</h1>
             </div>
-                <p>{!! $post->body !!}</p>
+                <p>{!! $post->body !!}
+                <br>
+                <b>Cooking Time: {!! $post->cook_time !!}</b></p>
                 <div class="col-12 text-center pt-5">
                 <a href="/blog/{{ $post->id }}/edit" class="btn btn-outline-primary">Edit Recipe</a>
                 <br><br>

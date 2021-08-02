@@ -1,21 +1,160 @@
-Recipe ID	Recipe Name	Recipe Type	Recipe Constituents	Recipe Cooking Time (mins)
-1	creamy chipotle shrimp	Lunch	"shrimp, red pepper,green onion, garlic, salt and pepper, chipotle sauce, milk, garnishings"	15
-2	chicken stir fry	Dessert	"garlic, onion, carrot, sesame oil, pepper,honey, ginger, sesame seeds, arrow root powder, chicken broth, chiken breast"	25
-3	lemon drizzle cake	Dessert	"unsalted butter, caster sugar, eggs, self raising flour, zested lemon"	20
-4	ultimate chocolate cake	Dessert	"dark chocolate, cubed butter, instant coffee granules, self raising flour, plain flour, bicarbonate soda, light muscovado sugar, caster sugar, eggs, cocoa powder"	30
-5	chilli con carne recipe	Lunch	"large onion, red pepper, garlic cloves, oil, hot chilli powder, paprika, ground cumin, lean beef minced, beef stock, chopped tomatoes, marjoram, sugar"	40
-6	chicken chorizo jambalaya	Lunch	"chicken stock, plum tomato, rice, chorizo, garlic, red pepper, onions, chicken breast, olive oil"	35
-7	spiced carrot and lentil soup	Breakfast	"cumin seeds, chilli flakes, carrots, olive oil, split red lentils, vegetable stock, milk, yoghurt, naan"	30
-8	falafel burgers	Lunch	"chickpeas, garlic,red onion, ground coriander, plain flour, sunflower oil, pitta bread, parseley,green salad, tomato salsa"	20
-9	creamy courgette lasagne	Lunch	"lasagne sheets,sunflower oil, onion, courgette, riccota,cheddar, tomato sauce,garlic"	25
-10	chicken chasseur	Lunch	"thyme sprigs,chicken stock, red wine, chestnut mushrooms, garlic, chicken legs, onion, butter, olive oil"	35
-11	easy mince pies	Dessert	"egg,plain flour, butter,mincemeat, sugar icing"	30
-12	cheese and onion pasty	Breakfast	"cheese, onion, potato,puff pastry"	45
-13	turkey tikka masala	Lunch	"sunflower oil, onion, garlic, ginger, red chilli, cumin seeds, ground coriander, paprika, turmeric, garam masala,tomato puree, double cream, natural yoghurt, mango chutney, chopped tomato"	50
-14	turkey ramen	Lunch	"miso paste, white sesame paste, garlic, soy sauce, eggs, turkey gravy, ramen noodles, spring onions, lime, beansprouts"	60
-15	seafood pasta	Lunch	"frozen seafood mix, spaghetti, chopped tomato, paprika, garlic, onion, olive oil"	25
-16	perfect pancake	Breakfast	"plain flour, eggs, semi-skimmed milk, sunflower oil, salt"	5
-17	carrot cake	Dessert	"oroange, self-raising flour, vanilla extract, natural yoghurt, eggs, nutmeg, sultanas, walnuts, pecans, icing sugar, soft cheese, salty butter"	35
-18	plum porridge 	Breakfast	"plum, raisin, granola, cinammon, vegetable oil, honey, porridge oats, raisins"	5
-19	red lentil chickpea and chilli soul	Breakfast	"cumin seeds, red onion, red lentils, vegetable stock, canned tomato, coriander, greek yoghurt"	10
-20	classic scones	Dessert	"jam, milk, vanilla extract, lemon juice, egg,baking powder, self-raising flour, butter"	5
+title,body,cook_time
+creamy chipotle shrimp,"shrimp
+red pepper,green onion
+garlic
+salt and pepper
+chipotle sauce
+milk
+garnishings",15
+chicken stir fry,"garlic
+onion
+carrot
+sesame oil
+pepper,honey
+ginger
+sesame seeds
+arrow root powder
+chicken broth
+chiken breast",25
+lemon drizzle cake,"unsalted butter
+caster sugar
+eggs
+self raising flour
+zested lemon",20
+ultimate chocolate cake,"dark chocolate
+cubed butter
+instant coffee granules
+self raising flour
+plain flour
+bicarbonate soda
+light muscovado sugar
+caster sugar
+eggs
+cocoa powder",30
+chilli con carne recipe,"large onion
+red pepper
+garlic cloves
+oil
+hot chilli powder
+paprika
+ground cumin
+lean beef minced
+beef stock
+chopped tomatoes
+marjoram
+sugar",40
+chicken chorizo jambalaya,"chicken stock
+plum tomato
+rice
+chorizo
+garlic
+red pepper
+onions
+chicken breast
+olive oil",35
+spiced carrot and lentil soup,"cumin seeds
+chilli flakes
+carrots
+olive oil
+split red lentils
+vegetable stock
+milk
+yoghurt
+naan",30
+falafel burgers,"chickpeas
+garlic,red onion
+ground coriander
+plain flour
+sunflower oil
+pitta bread
+parseley,green salad
+tomato salsa",20
+creamy courgette lasagne,"lasagne sheets,sunflower oil
+onion
+courgette
+riccota,cheddar
+tomato sauce,garlic",25
+chicken chasseur,"thyme sprigs,chicken stock
+red wine
+chestnut mushrooms
+garlic
+chicken legs
+onion
+butter
+olive oil",35
+easy mince pies,"egg,plain flour
+butter,mincemeat
+sugar icing",30
+cheese and onion pasty,"cheese
+onion
+potato,puff pastry",45
+turkey tikka masala,"sunflower oil
+onion
+garlic
+ginger
+red chilli
+cumin seeds
+ground coriander
+paprika
+turmeric
+garam masala,tomato puree
+double cream
+natural yoghurt
+mango chutney
+chopped tomato",50
+turkey ramen,"miso paste
+white sesame paste
+garlic
+soy sauce
+eggs
+turkey gravy
+ramen noodles
+spring onions
+lime
+beansprouts",60
+seafood pasta,"frozen seafood mix
+spaghetti
+chopped tomato
+paprika
+garlic
+onion
+olive oil",25
+perfect pancake,"plain flour
+eggs
+semi-skimmed milk
+sunflower oil
+salt",5
+carrot cake,"oroange
+self-raising flour
+vanilla extract
+natural yoghurt
+eggs
+nutmeg
+sultanas
+walnuts
+pecans
+icing sugar
+soft cheese
+salty butter",35
+plum porridge ,"plum
+raisin
+granola
+cinammon
+vegetable oil
+honey
+porridge oats
+raisins",5
+red lentil chickpea and chilli soul,"cumin seeds
+red onion
+red lentils
+vegetable stock
+canned tomato
+coriander
+greek yoghurt",10
+classic scones,"jam
+milk
+vanilla extract
+lemon juice
+egg,baking powder
+self-raising flour
+butter",5

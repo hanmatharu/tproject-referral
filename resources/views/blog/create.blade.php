@@ -22,12 +22,17 @@
                             <div class="control-group col-12">
                                 <label for="title">Recipe Title</label>
                                 <input type="text" id="title" class="form-control" name="title"
-                                       placeholder="Enter Post Title" required>
+                                       placeholder="Enter Recipe Title" required>
                             </div>
                             <div class="control-group col-12 mt-2">
-                                <label for="body">Recipe Body</label>
-                                <textarea id="body" class="form-control" name="body" placeholder="Enter Post Body"
+                                <label for="body">Ingredients Required</label>
+                                <textarea id="body" class="form-control" name="body" placeholder="Enter Ingredients"
                                           rows="" required></textarea>
+                            </div>
+                            <div class="control-group col-12 mt-2">
+                                <label for="body">Cooking Time</label>
+                                <input id="cook_time" class="form-control" name="cook_time" placeholder="Enter Cooking Time"
+                                          rows="" required>
                             </div>
                         </div>
                         <div class="row mt-4">

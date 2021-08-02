@@ -39,13 +39,13 @@
     <header class="header-section">
         <div class="container">
             <div class="logo">
-                <a href="home"><img src="{{url('img/logo.png')}}" alt=""></a>
+                <a href="{{url('home')}}"><img src="{{url('img/logo.png')}}" alt=""></a>
             </div>
             <div class="nav-menu">
                 <nav class="main-menu mobile-menu">
                     <ul>
-                        <li><a href="addrecipe">Add Recipe</a></li>
-                        <li><a href="contact-us">Contact</a></li>
+                        <li><a href="{{url('addrecipe')}}">Add Recipe</a></li>
+                        <li><a href="{{url('contact-us')}}">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="nav-right search-switch">
@@ -70,7 +70,7 @@
                 <div class="col-lg-5">
                     <div class="fs-left">
                         <div class="logo">
-                            <a href="home">
+                            <a href="{{url('home')}}">
                                 <img src="{{url('img/footer-logo.png')}}" alt="">
                             </a>
                         </div>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-12 text-right pt-0">
                         <div class="social-links">
-                            <a href="https://github.com/hanmatharu/tproject-referral.git"><i class="fa fa-github"></i><span>GitHub</span></a>
+                            <a href="{{url('https://github.com/hanmatharu/tproject-referral.git')}}"><i class="fa fa-github"></i><span>GitHub</span></a>
                         </div>
                     </div>
                 </div>

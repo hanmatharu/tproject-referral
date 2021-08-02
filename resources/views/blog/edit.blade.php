@@ -16,17 +16,22 @@
 
                     <form action="/blog/{blogPost}/edit" method="POST">
                         @csrf
-                        @method('PUT')
+                        @method('PATCH')
                         <div class="row">
                             <div class="control-group col-12">
-                                <label for="title">Post Title</label>
+                                <label for="title">Recipe Title</label>
                                 <input type="text" id="title" class="form-control" name="title"
                                        placeholder="Enter Post Title" value="{{ $post->title }}" required>
                             </div>
                             <div class="control-group col-12 mt-2">
-                                <label for="body">Post Body</label>
-                                <textarea id="body" class="form-control" name="body" placeholder="Enter Post Body"
+                                <label for="body">Ingredients Required</label>
+                                <textarea id="body" class="form-control" name="body" placeholder="Enter Ingredients"
                                           rows="5" required>{{ $post->body }}</textarea>
+                            </div>
+                            <div class="control-group col-12 mt-2">
+                                <label for="body">Cooking Time</label>
+                                <input type="integer" id="cook_time" class="form-control" name="cook_time" placeholder="Enter Post Body"
+                                          value="{{ $post->cook_time }}" required>
                             </div>
                         </div>
                         <div class="row mt-2">
