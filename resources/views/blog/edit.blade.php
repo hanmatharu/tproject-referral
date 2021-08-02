@@ -14,7 +14,7 @@
 
                     <hr>
 
-                    <form action="/blog/{blogPost}/edit" method="POST">
+                    <form action="/blog/{{$post->id}}/edit" method="POST">
                         @csrf
                         @method('PATCH')
                         <div class="row">
